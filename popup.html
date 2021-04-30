@@ -1,0 +1,44 @@
+<html>
+  <body style="width: 300px; height: 400px">
+    <script src="popup.js"></script>
+    <div
+      style="
+        width: 300px;
+        height: 128px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      "
+    >
+      <img src="images/YTAlert_gray_128.png" name="MainImg" />
+      <img src="images/YTAlert_gray_128.png" name="grayImg" hidden="" />
+      <img src="images/YTAlert_green_128.png" name="greenImg" hidden="" />
+      <img src="images/YTAlert 128.png" name="redImg" hidden="" />
+      <h2 style="position: relative">Content Caution</h2>
+    </div>
+    <div
+      style="
+        width: 300px;
+        height: 272px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      "
+    >
+      <p id="p" style="font-size: large; padding-top: 20px">
+        The video is currently Unreported!
+      </p>
+      <b style="padding-top: 100px; font-size: medium">
+        The content of the video is:
+      </b>
+      <select id="report">
+        <option value="1">Option</option>
+        <option value="2">Safe</option>
+        <option value="3">Epilepsy Inducing</option>
+      </select>
+      <button id="submit" style="margin-bottom: 10px">Submit</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+export const baseURL = 'https://content-caution-video-reporting.vercel.app/api'
